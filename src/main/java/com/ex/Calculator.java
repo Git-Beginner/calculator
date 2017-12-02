@@ -24,4 +24,10 @@ public class Calculator {
 	public int product(@PathParam(value="left") int left , @PathParam(value="right") int right) {
 		return left * right;
 	}
+	
+	@GET
+	@Path("/minus/{left}/{right}")
+	public int minus(@PathParam(value="left") int left , @PathParam(value="right") int right) {
+		return left - right;
+	}
 }
