@@ -18,4 +18,10 @@ public class Calculator {
 	public int sum(@PathParam(value="left") int left , @PathParam(value="right") int right) {
 		return left + right;
 	}
+	
+	@GET
+	@Path("/product/{left}/{right}")
+	public int product(@PathParam(value="left") int left , @PathParam(value="right") int right) {
+		return left * right;
+	}
 }

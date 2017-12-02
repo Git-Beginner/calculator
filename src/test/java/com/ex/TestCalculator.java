@@ -5,14 +5,14 @@ import junit.framework.TestCase;
 
 public class TestCalculator extends TestCase{
 
-	public void testSum1(){
+	public void testSum(){
 		Calculator calculator = new Calculator();
 		Assert.assertEquals(3, calculator.sum(1, 2));
 	}
 	
-	public void testSum2(){
+	public void testProduct(){
 		Calculator calculator = new Calculator();
-		Assert.assertEquals(7, calculator.sum(5, 2));
+		Assert.assertEquals(10, calculator.product(5, 2));
 	}
 	
 }
