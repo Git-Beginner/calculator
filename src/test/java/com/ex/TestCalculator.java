@@ -12,7 +12,7 @@ public class TestCalculator extends TestCase{
 	
 	public void testSum2(){
 		Calculator calculator = new Calculator();
-		Assert.assertEquals(3, calculator.sum(5, 2));
+		Assert.assertEquals(7, calculator.sum(5, 2));
 	}
 	
 }
