@@ -16,6 +16,7 @@ public class TestCalculator extends TestCase{
 	}
 	
 	public void testMinus(){
+		//
 		Calculator calculator = new Calculator();
 		Assert.assertEquals(7, calculator.minus(5, 2));
 	}
