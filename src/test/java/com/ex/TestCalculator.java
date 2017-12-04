@@ -21,4 +21,10 @@ public class TestCalculator extends TestCase{
 	}
 	
 	
+	public void testGreet(){
+		Calculator calculator = new Calculator();
+		Assert.assertEquals("Hello Ramesh", calculator.greet("Ramesh"));
+	}
+	
+	
 }

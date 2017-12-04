@@ -33,8 +33,8 @@ public class Calculator {
 	
 	@GET
 	@Path("/greet/{name}")
-	public String minus(@PathParam(value="name") int name) {
-		return "Hello" + name ;
+	public String greet(@PathParam(value="name") String name) {
+		return "Hello " + name ;
 	}
 	
 }
