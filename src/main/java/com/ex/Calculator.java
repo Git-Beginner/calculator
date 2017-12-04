@@ -30,4 +30,11 @@ public class Calculator {
 	public int minus(@PathParam(value="left") int left , @PathParam(value="right") int right) {
 		return left - right;
 	}
+	
+	@GET
+	@Path("/greet/{name}")
+	public String minus(@PathParam(value="name") int name) {
+		return "Hello" + name ;
+	}
+	
 }
